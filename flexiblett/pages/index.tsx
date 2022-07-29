@@ -1,6 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import AvatarDemo from './api/Components/avatar'
+import Dropdown from './api/Components/dropdown'
+import Hamburger from './api/Components/hamburger'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -12,9 +15,16 @@ const Home: NextPage = () => {
         <meta name="description" content="Gary and Will number 1 project of broccoli" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h1>Gary and Will phat project</h1>
     <div>
-      <h1>Broccoli</h1>
-    </div>
+        < AvatarDemo />
+      </div>
+      <div>
+        <Dropdown />
+      </div>
+      <div>
+        <Hamburger />
+      </div>
 
 
       <footer className={styles.footer}>
