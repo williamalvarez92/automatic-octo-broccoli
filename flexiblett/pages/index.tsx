@@ -5,6 +5,7 @@ import AvatarDemo from './api/Components/avatar'
 import Dropdown from './api/Components/dropdown'
 import Hamburger from './api/Components/hamburger'
 import styles from '../styles/Home.module.css'
+import NavigationMenuDemo from './api/Components/navigation'
 
 const Home: NextPage = () => {
 
@@ -24,6 +25,9 @@ const Home: NextPage = () => {
       </div>
       <div>
         <Hamburger />
+      </div>
+      <div>
+        <NavigationMenuDemo />
       </div>
 
 
