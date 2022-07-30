@@ -6,6 +6,7 @@ import Dropdown from './api/Components/dropdown'
 import Hamburger from './api/Components/hamburger'
 import styles from '../styles/Home.module.css'
 import NavigationMenuDemo from './api/Components/navigation'
+import Calendar from './api/Components/calendar'
 
 const Home: NextPage = () => {
 
@@ -25,6 +26,9 @@ const Home: NextPage = () => {
       </div>
       <div className={styles.hamburgerMenu}>
         <Hamburger />
+      </div>
+      <div>
+        <Calendar />
       </div>
      
 
