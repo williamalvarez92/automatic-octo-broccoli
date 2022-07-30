@@ -24,8 +24,8 @@ export default function Calendar () {
         <p className={styles.dateNum}>9</p>
         <p className={styles.dateDay}>Mon</p>
       </div>
-      <div className={styles.event}>
-              <div className={ styles.event__securities__start12 }>
+      <div className={styles.events}>
+              <div className={ styles.event__securities } id={styles.start2}>
           <p className={styles.title}>Securities Regulation</p>
           <p className={styles.time}>2 PM - 5 PM</p>
         </div>
@@ -41,7 +41,7 @@ export default function Calendar () {
           <p className={styles.title}>Corporate Finance</p>
           <p className={styles.time}>10 AM - 12 PM</p>
         </div>
-              <div className={styles.event__entLaw}>
+              <div className={styles.event__entLaw}id={styles.start1}>
           <p className={styles.title}>Entertainment Law</p>
           <p className={styles.time}>1PM - 4PM</p>
         </div>
@@ -53,11 +53,11 @@ export default function Calendar () {
         <p className={styles.dateDay}>Wed</p>
       </div>
       <div className={styles.events}>
-        <div className={styles.event__writing}>
+        <div className={styles.event__writing}id={styles.start11}>
           <p className={styles.title}>Writing Seminar</p>
           <p className={styles.time}>11 AM - 12 PM</p>
         </div>
-        <div className={styles.event__securities}>
+        <div className={styles.event__securities}id={styles.start2}>
           <p className={styles.title}>Securities Regulation</p>
           <p className={styles.time}>2 PM - 5 PM</p>
         </div>
@@ -69,11 +69,11 @@ export default function Calendar () {
         <p className={styles.dateDay}>Thurs</p>
       </div>
       <div className={styles.events}>
-        <div className={styles.event__corpFi}>
+        <div className={styles.event__corpFi}id={styles.start10}>
           <p className={styles.title}>Corporate Finance</p>
           <p className={styles.time}>10 AM - 12 PM</p>
         </div>
-        <div className={styles.event__entLaw}>
+        <div className={styles.event__entLaw}id={styles.start1}>
           <p className={styles.title}>Entertainment Law</p>
           <p className={styles.time}>1PM - 4PM</p>
         </div>

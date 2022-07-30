@@ -50,13 +50,48 @@
   font-weight: 600;
   margin-bottom: 0.25rem;
 }
+#start12 {
+  grid-row-start: 4;
+}
+#end3 {
+  grid-row-end: 7;
+}
 
+#end4 {
+  grid-row-end: 8;
+}
+
+#end5 {
+  grid-row-end: 9;
+}
+#start2 {
+  grid-row-start: 6 !important;
+}
+
+#end12 {
+  grid-row-end: 4;
+}
+
+#end1 {
+  grid-row-end: 5;
+}
+#start10 {
+  grid-row-start: 2;
+}
+
+#start1 {
+  grid-row-start: 5;
+}
+#start12 {
+  grid-row-start: 4;
+}
 .event {
   border: 1px solid var(--eventBorderColor);
   border-radius: 5px;
   padding: 0.5rem;
   margin: 0 0.5rem;
   background: white;
+
 
   &__corpFi {
     background: var(--eventColor1);
@@ -72,43 +107,6 @@
   
   &__securities {
     background: var(--eventColor4);
-  }
-
-
-  &__start10 {
-    grid-row-start: 2;
-  }
-
-  &__start12 {
-    grid-row-start: 4;
-  }
-
-  &__start1 {
-    grid-row-start: 5;
-  }
-  
-  &__start2 {
-    grid-row-start: 6;
-  }
-  
-  &__end12 {
-    grid-row-end: 4;
-  }
-  
-  &__end1 {
-    grid-row-end: 5;
-  }
-  
-  &__end3 {
-    grid-row-end: 7;
-  }
-  
-  &__end4 {
-    grid-row-end: 8;
-  }
-  
-  &__end5 {
-    grid-row-end: 9;
   }
 }
 
