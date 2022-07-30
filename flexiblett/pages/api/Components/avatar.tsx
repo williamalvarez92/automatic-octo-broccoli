@@ -42,26 +42,23 @@ export const AvatarImage = StyledImage;
 export const AvatarFallback = StyledFallback;
 
 // Your app...
-const Flex = styled('div', { display: 'flex' });
+const Flex = styled('div', { display: 'flex', justifyContent: 'center', alignItems: 'center' });
 
 const AvatarDemo = () => (
   <Flex css={{ gap: 20 }}>
     <Avatar>
       <AvatarImage
-        src="https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?&w=128&h=128&dpr=2&q=80"
-        alt="Colm Tuite"
+        src="https://media-exp1.licdn.com/dms/image/C4E03AQHW8hpr_WC7sg/profile-displayphoto-shrink_400_400/0/1621101239905?e=1664409600&v=beta&t=r6WD637xPPGybeEDkuyTiPKQmvbWh2oAMJloD1kvQ3Q"
+        alt="Gary Smith"
       />
       <AvatarFallback delayMs={600}>CT</AvatarFallback>
     </Avatar>
     <Avatar>
       <AvatarImage
-        src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&w=128&h=128&dpr=2&q=80"
-        alt="Pedro Duarte"
+        src="https://media-exp1.licdn.com/dms/image/C4E03AQHRSRomhlXYug/profile-displayphoto-shrink_400_400/0/1632412338860?e=1664409600&v=beta&t=X7je-IbfTP8GKUb7cJjklk_EDxBh8Vet3Vmjmf26AhI"
+        alt="William Alvarez"
       />
       <AvatarFallback delayMs={600}>JD</AvatarFallback>
-    </Avatar>
-    <Avatar>
-      <AvatarFallback>PD</AvatarFallback>
     </Avatar>
   </Flex>
 );

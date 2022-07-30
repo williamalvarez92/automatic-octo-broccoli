@@ -111,6 +111,24 @@
 @media (max-width: 600px) {
   .grid {
     width: 100%;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.hamburgerMenu {
+  display: flex;
+  justify-content: end;
 }

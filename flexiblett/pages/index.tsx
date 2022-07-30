@@ -16,32 +16,23 @@ const Home: NextPage = () => {
         <meta name="description" content="Gary and Will number 1 project of broccoli" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Gary and Will phat project</h1>
+      <h1 className={styles.title}>Flexible Timetable Management</h1>
     <div>
         < AvatarDemo />
       </div>
-      <div>
+      <div className={styles.dropdown}>
         <Dropdown />
       </div>
-      <div>
+      <div className={styles.hamburgerMenu}>
         <Hamburger />
       </div>
-      <div>
-        <NavigationMenuDemo />
-      </div>
+     
 
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <div>
+        <NavigationMenuDemo />
+      </div>
       </footer>
     </div>
   )
