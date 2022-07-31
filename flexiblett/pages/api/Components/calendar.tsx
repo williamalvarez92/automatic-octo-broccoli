@@ -69,11 +69,13 @@ export default function Calendar () {
         <p className={styles.dateDay}>Thurs</p>
       </div>
       <div className={styles.events}>
-        <div className={styles.event__corpFi}id={styles.start10}>
-          <p className={styles.title}>Corporate Finance</p>
+              <div className={styles.event__corpFi} >
+                <p className={styles.title}>Corporate Finance</p>
           <p className={styles.time}>10 AM - 12 PM</p>
+                
+          
         </div>
-        <div className={styles.event__entLaw}id={styles.start1}>
+              <div className={styles.event__entLaw} id={styles.start1}>
           <p className={styles.title}>Entertainment Law</p>
           <p className={styles.time}>1PM - 4PM</p>
         </div>

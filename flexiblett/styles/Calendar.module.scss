@@ -79,6 +79,10 @@
   grid-row-start: 2;
 }
 
+#start11 {
+  grid-row-start: 3;
+}
+
 #start1 {
   grid-row-start: 5;
 }
@@ -92,22 +96,27 @@
   margin: 0 0.5rem;
   background: white;
 
+  
+    
+    &__corpFi {
+      background: var(--eventColor1);
+      // &__start5 {
+      //   grid-row-start: 7;
+      // }
+    }
+    
+    &__entLaw {
+      background: var(--eventColor2);
+    }
+    
+    &__writing {
+      background: var(--eventColor3);
+    }
+    
+    &__securities {
+      background: var(--eventColor4);
+    }
 
-  &__corpFi {
-    background: var(--eventColor1);
-  }
-  
-  &__entLaw {
-    background: var(--eventColor2);
-  }
-  
-  &__writing {
-    background: var(--eventColor3);
-  }
-  
-  &__securities {
-    background: var(--eventColor4);
-  }
 }
 
 .space,
